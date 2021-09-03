@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	float icecream = 5;
+	float banana = 10;
+	float coffee = 15;
+	int a, b, c;
+	int summ;
+	cout << "Enter your value icecream" << endl;
+	cin >> a;
+	cout << "Ener your value bananas" << endl;
+	cin >> b;
+	cout << "Enter your value coffee" << endl;
+	cin >> c;
+	summ = icecream * a + banana * b + coffee * c;
+	cout << "Total amount " << summ << "$" << endl;;
+
+}
