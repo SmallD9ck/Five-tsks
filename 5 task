@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int a, a1, i, j, c = 0, sum = 0;
+cin >> a;
+cin >> a1;
+for (i = a; i < a1; i++) {
+	for (j = 1; j <= i; j++) {
+		if (i % j == 0)
+			c = c + 1;
+	}
+	if (c == 2)
+		sum = sum + i;
+	c = 0;
+}
+cout << sum;
+system("pause");
+return 0;
+}
